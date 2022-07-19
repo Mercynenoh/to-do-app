@@ -1,0 +1,46 @@
+.container{
+    background-color: rgb(228, 228, 223);
+    height: 100vh;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.task{
+height: 200px;
+/* border: 2px solid royalblue; */
+border-radius: 5%;
+background-color: azure;
+text-align: center;
+}
+#sub{
+    display: none;
+}
+.btn-one, #sub{
+    background-color: aqua;
+    padding: 3%;
+    width: 80px;
+    border-radius: 13%;
+    border: none;
+}
+.delete{
+    background-color: red;
+    margin: 3%;
+    width: 80px;
+    border-radius: 13%;
+    border: none;
+    padding: 3%;
+    text-align: center;
+}
+#inputField_two{
+    height: 100px;
+    width: 200px;
+    border: none;
+}
+#inputField{
+    height: 50px;
+    width: 200px;
+    border: none;
+}
+.checkbox{
+    padding: 5%;
+}
